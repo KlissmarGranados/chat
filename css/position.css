@@ -1,0 +1,90 @@
+/*posiciones de la cajas*/
+
+.grid-container{
+    grid-template-areas: "caja-1 caja-1"
+                         "caja-2 caja-3"
+                         "caja-4 caja-5"
+                         "caja-4 caja-6"
+                         "caja-7 caja-7";
+    grid-template-columns: 40% 60%; /*ancho de las columnas*/
+    grid-template-rows: 50px 60px 475px 70px 120px; /*altura de las filas*/
+
+}   
+
+.d-grid{
+    display: grid;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+/*padres*/
+
+/*dirección de elementos dentro del container*/
+
+.flex-direction-row{ /*izquierda a derecha*/
+    flex-direction: row;
+}
+
+.flex-direction-row-reserve{ /*derecha a izquierda*/
+    flex-direction: row-reverse;
+}
+
+.flex-direction-column{
+    flex-direction: column; /*arriba a abajo*/
+}
+
+.flex-direction-column-reverse{ /*abajo a arriba*/
+    flex-direction: column-reverse;
+}
+
+/*alineación de elementos dentro del container*/
+
+/*eje x*/
+.justify-content-start{ 
+    justify-content: start; /*inicio-izquierda*/
+}
+
+.justify-content-end{
+    justify-content: end; /*final-derecha*/
+}
+
+.justify-content-center{ /*centro*/
+    justify-content: center;
+}
+
+.justify-content-start-space-between{ /*espacio entre los elementos*/
+    justify-content: space-between;
+}
+
+.justify-content-space-around{ /*espacio disimulado entre los elementos*/
+    justify-content: space-around;
+}
+
+/*eje y*/
+.align-items-start{ /*arriba*/
+    align-items: flex-start;
+}
+
+.align-items-end{ /*abajo*/
+    align-items: flex-end;
+}
+
+.align-items-center{ /*centro*/
+    align-items: center;
+}
+
+.align-items-streth{ /*estira los elementos*/
+    align-items: stretch;
+}
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding:10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.btn:hover{
+    background: rgb(23, 6, 85);
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-3:hover{
+    background: #1c1249;
+    cursor: pointer;
+}
+
+.icon-head{
+border-radius: 50%;
+border: solid #ffffff 1px;
+}
+
+
+.caja-1{
+    grid-area: caja-1;
+    position: fixed;
+    background: url(../img/perfiles/smooth-purple.jpg);
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: solid grey 1px;
+}
+
+.caja-1-1{
+    border-radius: 50%;
+    border: solid #ffffff 2px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/myAvatar2.png);
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.caja-1-2{
+    width: auto;
+    height: auto;
+    margin-right: 15px;
+}
+
+.caja-1-span{
+    border: solid #ffffff 2px;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 3px;
+    padding: 3px;
+}
+
+.caja-2{ /*caja de header izquierdo*/
+    grid-area: caja-2;
+    background-image: url(../img/perfiles/índice.jpg);
+    border: solid grey 1px;
+}
+
+.caja-2-1{ /*imagen de usurio*/
+    border-radius: 50%;
+    border: solid grey 2px;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.caja-2-2{ /*caja de íconos del header izquierdo*/
+    margin-right: 15px;
+}
+
+.caja-2-icon{ /*íconos del header izquierdo*/
+    color: grey;
+    font-size: 25px;
+    margin: 15px
+}
+
+.caja-3{ /*header derecho*/
+    grid-area: caja-3;
+    background-image: url(../img/perfiles/índice.jpg);
+    border: solid grey 1px;
+    border-left: none;
+}
+
+.caja-3-1{ /*nombre de contacto*/
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    font-weight: bold;
+}
+
+.caja-3-1-img{ /*imagen del contacto*/
+    border-radius: 50%;
+    margin-right: 10px;
+    border: solid grey 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.caja-3-2{ /*caja de íconos de header derecho*/
+    margin-right: 15px;
+}
+
+.caja-3-2-icon{ /*íconos header derecho*/
+    font-size: 25px;
+    margin: 15px;
+    color: grey;
+}
+
+.caja-4{
+    grid-area: caja-4;
+}
+
+.caja-4-1{ /*barrita de búsqueda*/
+    background: #000000;
+    border: solid grey 1px;
+    border-top: none;
+    padding:10px;
+}
+
+.caja-4-1-forma{
+    width: 100%;
+    border-radius: 40px;
+    background: white;
+}
+
+.caja-4-1-icon{ 
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: grey;
+}
+
+.caja-4-1-input{
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(155, 153, 153);
+    border: none;
+}
+
+.caja-4-2{ /*cajita de chats*/
+    overflow-x: auto;
+}
+
+.msg-1{ /*mensaje individual*/
+    background-image: url(../img/perfiles/índice.jpg);
+    outline: solid #ffffff 1px;
+    color: #ffffff;
+    padding: 15px;
+    opacity: 0.9;
+    border-left: solid grey 1px;
+}
+
+.msg-2{
+    background-image: url(../img/perfiles/333.jpg);
+    outline: solid #ffffff 1px;
+    color: #ffffff;
+    padding: 15px;
+    border-left: solid grey 1px;
+}
+
+.caja-4-2-img{ /*img mensaje individual*/
+    border-radius: 50%;
+    border: solid #ffffff 2px;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.caja-4-2-name{ /*nombre del contacto*/
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: solid #ffffff93 1px;
+}
+
+.caja-4-2-msg{ /*msg del contacto*/
+    font-size: 15px;
+    width: 100%;
+    color: rgb(194, 194, 194);
+}
+
+.caja-5{
+    grid-area: caja-5;
+    background-image: url("../img/perfiles/smooth-purple.jpg");
+    background-size: cover;
+    overflow-y: auto;
+}
+
+.caja-5-1-img{
+    border-radius: 50%;
+    border: solid #ffffff 2px;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.caja-5-2-msg{
+    background-image: url(../img/perfiles/333.jpg);
+    opacity: 0.6;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    max-width: 40%;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.caja-5-3-msg{
+    background-image: url(../img/perfiles/333.jpg);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    max-width: 40%;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.caja-6{
+    grid-area: caja-6;
+    background-image: url(../img/perfiles/333.jpg);
+    border: solid grey 1px;
+    border-bottom: none;
+}
+
+.caja-6-1{ /*input*/
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 80%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.caja-6-2{
+    width: 250px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.caja-6-2-span{
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    color: grey;
+}
+
+.caja-7{
+    grid-area: caja-7;
+    background-image: url(../img/perfiles/smooth-purple.jpg);
+    border: solid grey 1px;
+}
+
+.caja-7-1{ /*Klissmanr Granados*/
+    color: #ffffff;
+    margin: 10px;
+}
+
+.caja-7-2{ /*more*/
+    background-image: url(../img/perfiles/123.jpg);
+    opacity: 0.6;
+    border: solid #ffffff 1px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+}
